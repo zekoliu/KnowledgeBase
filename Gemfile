@@ -44,7 +44,12 @@ end
 # Windows does not include zoneinfo files, so bundle the tzinfo-data gem
 gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
 
-gem 'mysql2'
+# gem 'mysql2'
 
 # 分页
 gem 'kaminari'
+
+# add postgres support
+gem 'pg'
+gem 'activerecord-postgis-adapter'
+gem 'rgeo'
